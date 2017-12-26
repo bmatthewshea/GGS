@@ -1,0 +1,5 @@
+# image
+image: Visual Studio 2015
+
+# build platform
+platform: x64

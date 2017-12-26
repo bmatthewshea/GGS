@@ -1,5 +1,11 @@
 # image
 image: Visual Studio 2013
 
-install:
+nuget:
+  account_feed: true
+  project_feed: true
+
+  install:
   - mkdir C:\bin
+#Install-Package Newtonsoft.Json -Version 10.0.3
+

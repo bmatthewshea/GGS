@@ -1,8 +1,5 @@
 # image
-image: Visual Studio 2015
-
-# build platform
-platform: x64
+image: Visual Studio 2013
 
 install:
   - mkdir C:\bin

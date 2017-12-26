@@ -193,9 +193,6 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link />
-    <PostBuildEvent>
-      <Command>copy $(ProjectDir)bin\phymem.sys $(SolutionDir)bin\$(ConfigurationName)</Command>
-    </PostBuildEvent>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
@@ -205,18 +202,12 @@
       <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link />
-    <PostBuildEvent>
-      <Command>copy $(ProjectDir)bin\phymem.sys $(SolutionDir)bin\$(ConfigurationName)</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link />
-    <PostBuildEvent>
-      <Command>copy $(ProjectDir)bin\phymem.sys $(SolutionDir)bin\$(ConfigurationName)</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -224,9 +215,6 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link />
-    <PostBuildEvent>
-      <Command>copy $(ProjectDir)bin\phymem.sys $(SolutionDir)bin\$(ConfigurationName)</Command>
-    </PostBuildEvent>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
@@ -237,9 +225,6 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link />
-    <PostBuildEvent>
-      <Command>copy $(ProjectDir)bin\phymem.sys $(SolutionDir)bin\$(ConfigurationName)</Command>
-    </PostBuildEvent>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
@@ -249,9 +234,6 @@
       <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link />
-    <PostBuildEvent>
-      <Command>copy $(ProjectDir)bin\phymem.sys $(SolutionDir)bin\$(ConfigurationName)</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Inf Include="phymem.inf" />
